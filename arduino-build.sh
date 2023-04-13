@@ -13,8 +13,8 @@ BOARD="${ARDUINO_CORE}":nano33ble
 
 # declare associative array pre bash 4 style
 ARDUINO_LIBS=(
-"Arduino_LSM9DS1=1.0.0"   # Inertial sensor library
-"Arduino_HTS221=1.0.0"    # Environment sensor library
+"Arduino_BMI270_BMM150=1.1.0"   # Inertial sensor library
+"Arduino_HS300x=1.0.0"    # Environment sensor library
 "Arduino_LPS22HB=1.0.0"   # Pressure sensor library
 "Arduino_APDS9960=1.0.3"  # Interaction sensor library
 "Arduino_OV767X=0.0.2"    # Camera sensor library
